@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles5.css">
+</head>
+<body>
+    <header>
+        <h1>POOJA H V</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="profil.jpg" alt="Your Image">
+        <p>I am Pooja H V, currently pursuing my Master of Computer Applications (MCA), driven by a passion for technology and software development. 
+         With a strong foundation in computer science principles, I am keen on exploring advanced topics such as machine learning, artificial intelligence, and data science. 
+         My coursework and projects have provided me with practical experience in programming languages like Java, Python, and C++, 
+         as well as proficiency in database management and web development.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <p>HTML</p>
+            <p>CSS</p>
+            <p>java</p>
+            <p>Problem solving</p>
+            <p>Creativity</p>
+            <p>Team work</p>
+            <p>Communication</p>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1 - Image Steganography</h3>
+            <p>The project deals with learning about the various types of steganography available. 
+                Image steganography is performed for images and the concerning data is also decrypted to retrieve the message image. 
+                Since this can be done in several ways, image steganography is studied and one of the methods is used to demonstrate it. 
+                Image steganography refers to hiding information i.e. text, images or audio files in another image or video files. 
+                The current project aims to use steganography for an image with another image using spatial domain technique. 
+                This hidden information can be retrieved only through proper  decoding  technique. 
+                This encryption  and  decryption  of  the  images  is  done  using LSB codes. </p>
+        </div>
+        <div class="project">
+            <h3>Project 2 - Airline Reservation System</h3>
+            <p>This Airline Reservation System, The Admin user is in charge of managing the aircraft, Destination, Scheduling, and Reports. 
+                The Regular user will be the one who can reserve a flight and cancel the reservation of the passengers. 
+                This project using SQL Server for the database.</p>
+        </div>
+    </section>
+
+    <section id="resume" class="section">
+        <h2>Resume</h2>
+        <p>You can download my resume <a href="resume.pdf" download>here</a>.</p>
+        <div class="resume-content">
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+        <p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/your-profile" target="_blank">Your LinkedIn</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Pooja H V. All rights reserved.</p>
+    </footer>
+</body>
+</html>
